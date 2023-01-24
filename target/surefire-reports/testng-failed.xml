@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="org.rahulshettyacademy.TestUtils.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="LoginPage Testing(failed)" verbose="0">
+    <classes>
+      <class name="org.rahulshettyacademy.eCommerce_tc_2">
+        <methods>
+          <include name="FillForm_ErrorTesting"/>
+          <include name="FillForm_WorkingCorrectly"/>
+          <include name="TearDown"/>
+          <include name="ConfigureAppium"/>
+        </methods>
+      </class> <!-- org.rahulshettyacademy.eCommerce_tc_2 -->
+    </classes>
+  </test> <!-- LoginPage Testing(failed) -->
+  <test thread-count="5" name="End to End FrameWork Test(failed)" verbose="0">
+    <classes>
+      <class name="org.rahulshettyacademy.eCommerce_tc_4_HybridApp">
+        <methods>
+          <include name="preSetup"/>
+          <include name="ConfirmCost"/>
+          <include name="TearDown"/>
+          <include name="ConfigureAppium"/>
+        </methods>
+      </class> <!-- org.rahulshettyacademy.eCommerce_tc_4_HybridApp -->
+    </classes>
+  </test> <!-- End to End FrameWork Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="0" failed="0" skipped="4">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-21T01:59:17Z" name="Suite" finished-at="2023-01-21T01:59:42Z" duration-ms="24759">
+    <groups>
+      <group name="Smoke">
+        <method signature="eCommerce_tc_4_HybridApp.ConfirmCost(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_4_HybridApp@24d09c1]" name="ConfirmCost" class="org.rahulshettyacademy.eCommerce_tc_4_HybridApp"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-01-21T01:59:17Z" name="LoginPage Testing" finished-at="2023-01-21T01:59:37Z" duration-ms="20088">
+      <class name="org.rahulshettyacademy.eCommerce_tc_2">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_2@373ebf74]" started-at="2023-01-21T01:59:17Z" name="ConfigureAppium" finished-at="2023-01-21T01:59:37Z" duration-ms="20068" status="FAIL">
+          <exception class="io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException">
+            <message>
+              <![CDATA[The local appium server has not been started. The given Node.js executable: C:\Program Files\nodejs\node.exe Arguments: [C:\Users\axelc\AppData\Roaming\npm\node_modules\appium\build\lib\main.js, --port, 4723, --address, 127.0.0.1] 
+Process output: info Appium Upgraded extension manifest to schema v3
+[35m[Appium][39m Welcome to Appium v2.0.0-beta.47
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m { address: [32m'127.0.0.1'[39m }
+[35m[Appium][39m Attempting to load driver uiautomator2...
+[debug] [35m[Appium][39m Requiring driver at C:\Users\axelc\.appium\node_modules\appium-uiautomator2-driver
+[38;5;0m[HTTP][0m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other[ insdtaneceb ouf gt]hi s s[er3ve5rm r[unAnipnpg ialuremad]y.[
+3[93m5m [AEprpirumo]r[:39 ml Ciousldt noet nc onEfAiDgDurReI NAUpSpEi:u ma ddrseesrvse r.a lItr'se apodssyib lei nth aut sa ed ri1ve2r7 o.r0 p.lu0g.in1 t:r4ie7d 2t3o u
+pdate[ tdhee bseurvger]  and [f3ai5lemd.[ AOrpigpiinaulm err]or:[ l3is9tmen  E AD D RI NUaStE S:e ravdedrr.essestu paLlirsetaednyH aindnl ues e [12a7s. 0_l.i0s.t1e:n427]2 3(n
+ode:net:1432:16)
+[debug] [35m[Appium][39m     at listenInCluster (node:net:1480:12)
+[debug] [35m[Appium][39m     at doListen (node:net:1629:7)
+[debug] [35m[Appium][39m     at processTicksAndRejections (node:internal/process/task_queues:84:21)
+
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException: The local appium server has not been started. The given Node.js executable: C:\Program Files\nodejs\node.exe Arguments: [C:\Users\axelc\AppData\Roaming\npm\node_modules\appium\build\lib\main.js, --port, 4723, --address, 127.0.0.1] 
+Process output: info Appium Upgraded extension manifest to schema v3
+[35m[Appium][39m Welcome to Appium v2.0.0-beta.47
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m { address: [32m'127.0.0.1'[39m }
+[35m[Appium][39m Attempting to load driver uiautomator2...
+[debug] [35m[Appium][39m Requiring driver at C:\Users\axelc\.appium\node_modules\appium-uiautomator2-driver
+[38;5;0m[HTTP][0m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other[ insdtaneceb ouf gt]hi s s[er3ve5rm r[unAnipnpg ialuremad]y.[
+3[93m5m [AEprpirumo]r[:39 ml Ciousldt noet nc onEfAiDgDurReI NAUpSpEi:u ma ddrseesrvse r.a lItr'se apodssyib lei nth aut sa ed ri1ve2r7 o.r0 p.lu0g.in1 t:r4ie7d 2t3o u
+pdate[ tdhee bseurvger]  and [f3ai5lemd.[ AOrpigpiinaulm err]or:[ l3is9tmen  E AD D RI NUaStE S:e ravdedrr.essestu paLlirsetaednyH aindnl ues e [12a7s. 0_l.i0s.t1e:n427]2 3(n
+ode:net:1432:16)
+[debug] [35m[Appium][39m     at listenInCluster (node:net:1480:12)
+[debug] [35m[Appium][39m     at doListen (node:net:1629:7)
+[debug] [35m[Appium][39m     at processTicksAndRejections (node:internal/process/task_queues:84:21)
+
+
+at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:190)
+at org.rahulshettyacademy.utils.appiumUtils.startAppiumServer(appiumUtils.java:20)
+at org.rahulshettyacademy.TestUtils.BaseTest.ConfigureAppium(BaseTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20015 ms
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:89)
+at io.appium.java_client.service.local.AppiumDriverLocalService.ping(AppiumDriverLocalService.java:155)
+at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:177)
+... 32 more
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:87)
+... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="FillForm_ErrorTesting()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_2@373ebf74]" started-at="2023-01-21T01:59:37Z" name="FillForm_ErrorTesting" finished-at="2023-01-21T01:59:37Z" duration-ms="0" status="SKIP">
+          <exception class="io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException">
+            <message>
+              <![CDATA[The local appium server has not been started. The given Node.js executable: C:\Program Files\nodejs\node.exe Arguments: [C:\Users\axelc\AppData\Roaming\npm\node_modules\appium\build\lib\main.js, --port, 4723, --address, 127.0.0.1] 
+Process output: info Appium Upgraded extension manifest to schema v3
+[35m[Appium][39m Welcome to Appium v2.0.0-beta.47
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m { address: [32m'127.0.0.1'[39m }
+[35m[Appium][39m Attempting to load driver uiautomator2...
+[debug] [35m[Appium][39m Requiring driver at C:\Users\axelc\.appium\node_modules\appium-uiautomator2-driver
+[38;5;0m[HTTP][0m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other[ insdtaneceb ouf gt]hi s s[er3ve5rm r[unAnipnpg ialuremad]y.[
+3[93m5m [AEprpirumo]r[:39 ml Ciousldt noet nc onEfAiDgDurReI NAUpSpEi:u ma ddrseesrvse r.a lItr'se apodssyib lei nth aut sa ed ri1ve2r7 o.r0 p.lu0g.in1 t:r4ie7d 2t3o u
+pdate[ tdhee bseurvger]  and [f3ai5lemd.[ AOrpigpiinaulm err]or:[ l3is9tmen  E AD D RI NUaStE S:e ravdedrr.essestu paLlirsetaednyH aindnl ues e [12a7s. 0_l.i0s.t1e:n427]2 3(n
+ode:net:1432:16)
+[debug] [35m[Appium][39m     at listenInCluster (node:net:1480:12)
+[debug] [35m[Appium][39m     at doListen (node:net:1629:7)
+[debug] [35m[Appium][39m     at processTicksAndRejections (node:internal/process/task_queues:84:21)
+
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException: The local appium server has not been started. The given Node.js executable: C:\Program Files\nodejs\node.exe Arguments: [C:\Users\axelc\AppData\Roaming\npm\node_modules\appium\build\lib\main.js, --port, 4723, --address, 127.0.0.1] 
+Process output: info Appium Upgraded extension manifest to schema v3
+[35m[Appium][39m Welcome to Appium v2.0.0-beta.47
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m { address: [32m'127.0.0.1'[39m }
+[35m[Appium][39m Attempting to load driver uiautomator2...
+[debug] [35m[Appium][39m Requiring driver at C:\Users\axelc\.appium\node_modules\appium-uiautomator2-driver
+[38;5;0m[HTTP][0m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other[ insdtaneceb ouf gt]hi s s[er3ve5rm r[unAnipnpg ialuremad]y.[
+3[93m5m [AEprpirumo]r[:39 ml Ciousldt noet nc onEfAiDgDurReI NAUpSpEi:u ma ddrseesrvse r.a lItr'se apodssyib lei nth aut sa ed ri1ve2r7 o.r0 p.lu0g.in1 t:r4ie7d 2t3o u
+pdate[ tdhee bseurvger]  and [f3ai5lemd.[ AOrpigpiinaulm err]or:[ l3is9tmen  E AD D RI NUaStE S:e ravdedrr.essestu paLlirsetaednyH aindnl ues e [12a7s. 0_l.i0s.t1e:n427]2 3(n
+ode:net:1432:16)
+[debug] [35m[Appium][39m     at listenInCluster (node:net:1480:12)
+[debug] [35m[Appium][39m     at doListen (node:net:1629:7)
+[debug] [35m[Appium][39m     at processTicksAndRejections (node:internal/process/task_queues:84:21)
+
+
+at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:190)
+at org.rahulshettyacademy.utils.appiumUtils.startAppiumServer(appiumUtils.java:20)
+at org.rahulshettyacademy.TestUtils.BaseTest.ConfigureAppium(BaseTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20015 ms
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:89)
+at io.appium.java_client.service.local.AppiumDriverLocalService.ping(AppiumDriverLocalService.java:155)
+at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:177)
+... 32 more
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:87)
+... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm_ErrorTesting -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_2@373ebf74]" started-at="2023-01-21T01:59:37Z" name="TearDown" finished-at="2023-01-21T01:59:37Z" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/openqa/selenium/Rotatable]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/openqa/selenium/Rotatable
+at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
+at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:800)
+at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:698)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:621)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:579)
+at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
+at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:800)
+at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:698)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:621)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:579)
+at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+at org.rahulshettyacademy.TestUtils.BaseTest.TearDown(BaseTest.java:115)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:214)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.Rotatable
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+... 49 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method signature="FillForm_WorkingCorrectly()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_2@373ebf74]" started-at="2023-01-21T01:59:37Z" name="FillForm_WorkingCorrectly" finished-at="2023-01-21T01:59:37Z" duration-ms="0" status="SKIP">
+          <exception class="io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException">
+            <message>
+              <![CDATA[The local appium server has not been started. The given Node.js executable: C:\Program Files\nodejs\node.exe Arguments: [C:\Users\axelc\AppData\Roaming\npm\node_modules\appium\build\lib\main.js, --port, 4723, --address, 127.0.0.1] 
+Process output: info Appium Upgraded extension manifest to schema v3
+[35m[Appium][39m Welcome to Appium v2.0.0-beta.47
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m { address: [32m'127.0.0.1'[39m }
+[35m[Appium][39m Attempting to load driver uiautomator2...
+[debug] [35m[Appium][39m Requiring driver at C:\Users\axelc\.appium\node_modules\appium-uiautomator2-driver
+[38;5;0m[HTTP][0m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other[ insdtaneceb ouf gt]hi s s[er3ve5rm r[unAnipnpg ialuremad]y.[
+3[93m5m [AEprpirumo]r[:39 ml Ciousldt noet nc onEfAiDgDurReI NAUpSpEi:u ma ddrseesrvse r.a lItr'se apodssyib lei nth aut sa ed ri1ve2r7 o.r0 p.lu0g.in1 t:r4ie7d 2t3o u
+pdate[ tdhee bseurvger]  and [f3ai5lemd.[ AOrpigpiinaulm err]or:[ l3is9tmen  E AD D RI NUaStE S:e ravdedrr.essestu paLlirsetaednyH aindnl ues e [12a7s. 0_l.i0s.t1e:n427]2 3(n
+ode:net:1432:16)
+[debug] [35m[Appium][39m     at listenInCluster (node:net:1480:12)
+[debug] [35m[Appium][39m     at doListen (node:net:1629:7)
+[debug] [35m[Appium][39m     at processTicksAndRejections (node:internal/process/task_queues:84:21)
+
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException: The local appium server has not been started. The given Node.js executable: C:\Program Files\nodejs\node.exe Arguments: [C:\Users\axelc\AppData\Roaming\npm\node_modules\appium\build\lib\main.js, --port, 4723, --address, 127.0.0.1] 
+Process output: info Appium Upgraded extension manifest to schema v3
+[35m[Appium][39m Welcome to Appium v2.0.0-beta.47
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m { address: [32m'127.0.0.1'[39m }
+[35m[Appium][39m Attempting to load driver uiautomator2...
+[debug] [35m[Appium][39m Requiring driver at C:\Users\axelc\.appium\node_modules\appium-uiautomator2-driver
+[38;5;0m[HTTP][0m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other[ insdtaneceb ouf gt]hi s s[er3ve5rm r[unAnipnpg ialuremad]y.[
+3[93m5m [AEprpirumo]r[:39 ml Ciousldt noet nc onEfAiDgDurReI NAUpSpEi:u ma ddrseesrvse r.a lItr'se apodssyib lei nth aut sa ed ri1ve2r7 o.r0 p.lu0g.in1 t:r4ie7d 2t3o u
+pdate[ tdhee bseurvger]  and [f3ai5lemd.[ AOrpigpiinaulm err]or:[ l3is9tmen  E AD D RI NUaStE S:e ravdedrr.essestu paLlirsetaednyH aindnl ues e [12a7s. 0_l.i0s.t1e:n427]2 3(n
+ode:net:1432:16)
+[debug] [35m[Appium][39m     at listenInCluster (node:net:1480:12)
+[debug] [35m[Appium][39m     at doListen (node:net:1629:7)
+[debug] [35m[Appium][39m     at processTicksAndRejections (node:internal/process/task_queues:84:21)
+
+
+at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:190)
+at org.rahulshettyacademy.utils.appiumUtils.startAppiumServer(appiumUtils.java:20)
+at org.rahulshettyacademy.TestUtils.BaseTest.ConfigureAppium(BaseTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20015 ms
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:89)
+at io.appium.java_client.service.local.AppiumDriverLocalService.ping(AppiumDriverLocalService.java:155)
+at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:177)
+... 32 more
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:87)
+... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm_WorkingCorrectly -->
+      </class> <!-- org.rahulshettyacademy.eCommerce_tc_2 -->
+    </test> <!-- LoginPage Testing -->
+    <test started-at="2023-01-21T01:59:37Z" name="End to End FrameWork Test" finished-at="2023-01-21T01:59:42Z" duration-ms="4642">
+      <class name="org.rahulshettyacademy.eCommerce_tc_4_HybridApp">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_4_HybridApp@24d09c1]" started-at="2023-01-21T01:59:37Z" name="ConfigureAppium" finished-at="2023-01-21T01:59:42Z" duration-ms="4637" status="FAIL">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/openqa/selenium/Rotatable]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/openqa/selenium/Rotatable
+at org.rahulshettyacademy.TestUtils.BaseTest.ConfigureAppium(BaseTest.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="ConfirmCost(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_4_HybridApp@24d09c1]" started-at="2023-01-21T01:59:42Z" name="ConfirmCost" data-provider="getData" finished-at="2023-01-21T01:59:42Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/openqa/selenium/Rotatable]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/openqa/selenium/Rotatable
+at org.rahulshettyacademy.TestUtils.BaseTest.ConfigureAppium(BaseTest.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmCost -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_4_HybridApp@24d09c1]" started-at="2023-01-21T01:59:42Z" name="preSetup" finished-at="2023-01-21T01:59:42Z" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/openqa/selenium/Rotatable]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/openqa/selenium/Rotatable
+at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
+at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:800)
+at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:698)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:621)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:579)
+at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
+at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:800)
+at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:698)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:621)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:579)
+at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+at org.rahulshettyacademy.eCommerce_tc_4_HybridApp.preSetup(eCommerce_tc_4_HybridApp.java:69)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:536)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.Rotatable
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+... 51 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="ConfirmCost(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_4_HybridApp@24d09c1]" started-at="2023-01-21T01:59:42Z" name="ConfirmCost" data-provider="getData" finished-at="2023-01-21T01:59:42Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/openqa/selenium/Rotatable]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/openqa/selenium/Rotatable
+at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
+at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:800)
+at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:698)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:621)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:579)
+at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
+at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:800)
+at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:698)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:621)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:579)
+at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+at org.rahulshettyacademy.eCommerce_tc_4_HybridApp.preSetup(eCommerce_tc_4_HybridApp.java:69)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:536)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.Rotatable
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+... 51 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmCost -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_4_HybridApp@24d09c1]" started-at="2023-01-21T01:59:42Z" name="preSetup" finished-at="2023-01-21T01:59:42Z" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/openqa/selenium/Rotatable]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/openqa/selenium/Rotatable
+at org.rahulshettyacademy.eCommerce_tc_4_HybridApp.preSetup(eCommerce_tc_4_HybridApp.java:69)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:536)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_4_HybridApp@24d09c1]" started-at="2023-01-21T01:59:42Z" name="TearDown" finished-at="2023-01-21T01:59:42Z" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/openqa/selenium/Rotatable]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/openqa/selenium/Rotatable
+at org.rahulshettyacademy.TestUtils.BaseTest.TearDown(BaseTest.java:115)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:214)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- org.rahulshettyacademy.eCommerce_tc_4_HybridApp -->
+    </test> <!-- End to End FrameWork Test -->
+  </suite> <!-- Suite -->
+</testng-results>

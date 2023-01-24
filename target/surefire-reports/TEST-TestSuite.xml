@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="25.721" tests="10" errors="0" skipped="4" failures="6">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\axelc\eclipse-workspace\AppiumFrameworkDesign\target\test-classes;C:\Users\axelc\eclipse-workspace\AppiumFrameworkDesign\target\classes;C:\Users\axelc\.m2\repository\io\appium\java-client\8.1.1\java-client-8.1.1.jar;C:\Users\axelc\.m2\repository\org\seleniumhq\selenium\selenium-api\4.7.2\selenium-api-4.7.2.jar;C:\Users\axelc\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.7.2\selenium-remote-driver-4.7.2.jar;C:\Users\axelc\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\axelc\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\axelc\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\axelc\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\axelc\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\axelc\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\axelc\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\axelc\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\axelc\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\axelc\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\axelc\.m2\repository\io\netty\netty-buffer\4.1.84.Final\netty-buffer-4.1.84.Final.jar;C:\Users\axelc\.m2\repository\io\netty\netty-codec-http\4.1.84.Final\netty-codec-http-4.1.84.Final.jar;C:\Users\axelc\.m2\repository\io\netty\netty-codec\4.1.84.Final\netty-codec-4.1.84.Final.jar;C:\Users\axelc\.m2\repository\io\netty\netty-handler\4.1.84.Final\netty-handler-4.1.84.Final.jar;C:\Users\axelc\.m2\repository\io\netty\netty-common\4.1.84.Final\netty-common-4.1.84.Final.jar;C:\Users\axelc\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.84.Final\netty-transport-classes-epoll-4.1.84.Final.jar;C:\Users\axelc\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.84.Final\netty-transport-classes-kqueue-4.1.84.Final.jar;C:\Users\axelc\.m2\repository\io\netty\netty-transport-native-epoll\4.1.84.Final\netty-transport-native-epoll-4.1.84.Final.jar;C:\Users\axelc\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.84.Final\netty-transport-native-kqueue-4.1.84.Final.jar;C:\Users\axelc\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.84.Final\netty-transport-native-unix-common-4.1.84.Final.jar;C:\Users\axelc\.m2\repository\io\netty\netty-transport\4.1.84.Final\netty-transport-4.1.84.Final.jar;C:\Users\axelc\.m2\repository\io\netty\netty-resolver\4.1.84.Final\netty-resolver-4.1.84.Final.jar;C:\Users\axelc\.m2\repository\io\opentelemetry\opentelemetry-api\1.19.0\opentelemetry-api-1.19.0.jar;C:\Users\axelc\.m2\repository\io\opentelemetry\opentelemetry-context\1.19.0\opentelemetry-context-1.19.0.jar;C:\Users\axelc\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.19.0\opentelemetry-exporter-logging-1.19.0.jar;C:\Users\axelc\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.19.0\opentelemetry-sdk-metrics-1.19.0.jar;C:\Users\axelc\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.19.0-alpha\opentelemetry-sdk-logs-1.19.0-alpha.jar;C:\Users\axelc\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.19.0-alpha\opentelemetry-api-logs-1.19.0-alpha.jar;C:\Users\axelc\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.19.0\opentelemetry-sdk-common-1.19.0.jar;C:\Users\axelc\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.19.0\opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar;C:\Users\axelc\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.19.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar;C:\Users\axelc\.m2\repository\io\opentelemetry\opentelemetry-exporter-common\1.19.0\opentelemetry-exporter-common-1.19.0.jar;C:\Users\axelc\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.19.0\opentelemetry-sdk-trace-1.19.0.jar;C:\Users\axelc\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.19.0\opentelemetry-sdk-1.19.0.jar;C:\Users\axelc\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.19.0-alpha\opentelemetry-semconv-1.19.0-alpha.jar;C:\Users\axelc\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\axelc\.m2\repository\net\bytebuddy\byte-buddy\1.12.18\byte-buddy-1.12.18.jar;C:\Users\axelc\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\axelc\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\axelc\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\axelc\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\axelc\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\axelc\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\axelc\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\axelc\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\axelc\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\axelc\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\axelc\.m2\repository\org\seleniumhq\selenium\selenium-http\4.7.2\selenium-http-4.7.2.jar;C:\Users\axelc\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\axelc\.m2\repository\org\seleniumhq\selenium\selenium-json\4.7.2\selenium-json-4.7.2.jar;C:\Users\axelc\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.7.2\selenium-manager-4.7.2.jar;C:\Users\axelc\.m2\repository\org\seleniumhq\selenium\selenium-support\4.7.2\selenium-support-4.7.2.jar;C:\Users\axelc\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\axelc\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\axelc\.m2\repository\cglib\cglib\3.3.0\cglib-3.3.0.jar;C:\Users\axelc\.m2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;C:\Users\axelc\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\axelc\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\axelc\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\axelc\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\axelc\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\axelc\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\axelc\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\axelc\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\axelc\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\axelc\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\axelc\.m2\repository\com\aventstack\extentreports\4.1.3\extentreports-4.1.3.jar;C:\Users\axelc\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\axelc\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\axelc\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\axelc\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\axelc\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\axelc\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\axelc\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\Users\axelc\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.3\jackson-databind-2.13.3.jar;C:\Users\axelc\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.3\jackson-annotations-2.13.3.jar;C:\Users\axelc\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.3\jackson-core-2.13.3.jar;C:\Users\axelc\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/Mexico_City"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.14\bin"/>
+    <property name="sun.java.command" value="C:\Users\axelc\AppData\Local\Temp\surefire11815708589600597121\surefirebooter-20230120195915789_3.jar C:\Users\axelc\AppData\Local\Temp\surefire11815708589600597121 2023-01-20T19-59-15_132-jvmRun1 surefire-20230120195915789_1tmp surefire_0-20230120195915789_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\axelc\eclipse-workspace\AppiumFrameworkDesign\target\test-classes;C:\Users\axelc\eclipse-workspace\AppiumFrameworkDesign\target\classes;C:\Users\axelc\.m2\repository\io\appium\java-client\8.1.1\java-client-8.1.1.jar;C:\Users\axelc\.m2\repository\org\seleniumhq\selenium\selenium-api\4.7.2\selenium-api-4.7.2.jar;C:\Users\axelc\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.7.2\selenium-remote-driver-4.7.2.jar;C:\Users\axelc\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\axelc\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\axelc\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\axelc\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\axelc\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\axelc\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\axelc\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\axelc\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\axelc\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\axelc\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\axelc\.m2\repository\io\netty\netty-buffer\4.1.84.Final\netty-buffer-4.1.84.Final.jar;C:\Users\axelc\.m2\repository\io\netty\netty-codec-http\4.1.84.Final\netty-codec-http-4.1.84.Final.jar;C:\Users\axelc\.m2\repository\io\netty\netty-codec\4.1.84.Final\netty-codec-4.1.84.Final.jar;C:\Users\axelc\.m2\repository\io\netty\netty-handler\4.1.84.Final\netty-handler-4.1.84.Final.jar;C:\Users\axelc\.m2\repository\io\netty\netty-common\4.1.84.Final\netty-common-4.1.84.Final.jar;C:\Users\axelc\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.84.Final\netty-transport-classes-epoll-4.1.84.Final.jar;C:\Users\axelc\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.84.Final\netty-transport-classes-kqueue-4.1.84.Final.jar;C:\Users\axelc\.m2\repository\io\netty\netty-transport-native-epoll\4.1.84.Final\netty-transport-native-epoll-4.1.84.Final.jar;C:\Users\axelc\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.84.Final\netty-transport-native-kqueue-4.1.84.Final.jar;C:\Users\axelc\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.84.Final\netty-transport-native-unix-common-4.1.84.Final.jar;C:\Users\axelc\.m2\repository\io\netty\netty-transport\4.1.84.Final\netty-transport-4.1.84.Final.jar;C:\Users\axelc\.m2\repository\io\netty\netty-resolver\4.1.84.Final\netty-resolver-4.1.84.Final.jar;C:\Users\axelc\.m2\repository\io\opentelemetry\opentelemetry-api\1.19.0\opentelemetry-api-1.19.0.jar;C:\Users\axelc\.m2\repository\io\opentelemetry\opentelemetry-context\1.19.0\opentelemetry-context-1.19.0.jar;C:\Users\axelc\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.19.0\opentelemetry-exporter-logging-1.19.0.jar;C:\Users\axelc\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.19.0\opentelemetry-sdk-metrics-1.19.0.jar;C:\Users\axelc\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.19.0-alpha\opentelemetry-sdk-logs-1.19.0-alpha.jar;C:\Users\axelc\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.19.0-alpha\opentelemetry-api-logs-1.19.0-alpha.jar;C:\Users\axelc\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.19.0\opentelemetry-sdk-common-1.19.0.jar;C:\Users\axelc\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.19.0\opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar;C:\Users\axelc\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.19.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar;C:\Users\axelc\.m2\repository\io\opentelemetry\opentelemetry-exporter-common\1.19.0\opentelemetry-exporter-common-1.19.0.jar;C:\Users\axelc\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.19.0\opentelemetry-sdk-trace-1.19.0.jar;C:\Users\axelc\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.19.0\opentelemetry-sdk-1.19.0.jar;C:\Users\axelc\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.19.0-alpha\opentelemetry-semconv-1.19.0-alpha.jar;C:\Users\axelc\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\axelc\.m2\repository\net\bytebuddy\byte-buddy\1.12.18\byte-buddy-1.12.18.jar;C:\Users\axelc\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\axelc\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\axelc\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\axelc\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\axelc\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\axelc\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\axelc\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\axelc\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\axelc\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\axelc\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\axelc\.m2\repository\org\seleniumhq\selenium\selenium-http\4.7.2\selenium-http-4.7.2.jar;C:\Users\axelc\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\axelc\.m2\repository\org\seleniumhq\selenium\selenium-json\4.7.2\selenium-json-4.7.2.jar;C:\Users\axelc\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.7.2\selenium-manager-4.7.2.jar;C:\Users\axelc\.m2\repository\org\seleniumhq\selenium\selenium-support\4.7.2\selenium-support-4.7.2.jar;C:\Users\axelc\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\axelc\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\axelc\.m2\repository\cglib\cglib\3.3.0\cglib-3.3.0.jar;C:\Users\axelc\.m2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;C:\Users\axelc\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\axelc\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\axelc\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\axelc\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\axelc\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\axelc\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\axelc\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\axelc\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\axelc\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\axelc\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\axelc\.m2\repository\com\aventstack\extentreports\4.1.3\extentreports-4.1.3.jar;C:\Users\axelc\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\axelc\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\axelc\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\axelc\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\axelc\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\axelc\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\axelc\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\Users\axelc\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.3\jackson-databind-2.13.3.jar;C:\Users\axelc\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.3\jackson-annotations-2.13.3.jar;C:\Users\axelc\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.3\jackson-core-2.13.3.jar;C:\Users\axelc\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\axelc"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.14"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\axelc\eclipse-workspace\AppiumFrameworkDesign"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\axelc\AppData\Local\Temp\surefire11815708589600597121\surefirebooter-20230120195915789_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.14+8-LTS-263"/>
+    <property name="user.name" value="axel.castruita"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\axelc\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\axelc\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.14"/>
+    <property name="user.dir" value="C:\Users\axelc\eclipse-workspace\AppiumFrameworkDesign"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.14\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Amazon Corretto\jdk11.0.16_8\bin;C:\Python310\Scripts\;C:\Python310\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Salesforce CLI\bin\;C:\Users\leonardos\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-11.0.14\bin;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\Micro Focus\LoadRunner\bin\Silk\Silk Performer 21.0;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Program Files\nodejs\;C:\Users\axelc\AppData\Local\Android\Sdk\tools;C:\Users\axelc\AppData\Local\Android\Sdk\tools\bin;C:\Users\axelc\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\Maven\apache-maven-3.8.7\bin;C:\Users\axelc\AppData\Local\Microsoft\WindowsApps;C:\Users\axelc\AppData\Local\Programs\Git\cmd;C:\Users\axelc\AppData\Roaming\npm;C:\Users\axelc\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.14+8-LTS-263"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="ConfigureAppium" classname="org.rahulshettyacademy.eCommerce_tc_2" time="20.941">
+    <failure message="The local appium server has not been started. The given Node.js executable: C:\Program Files\nodejs\node.exe Arguments: [C:\Users\axelc\AppData\Roaming\npm\node_modules\appium\build\lib\main.js, --port, 4723, --address, 127.0.0.1] &#10;Process output: info Appium Upgraded extension manifest to schema v3&#10;&amp;#27;[35m[Appium]&amp;#27;[39m Welcome to Appium v2.0.0-beta.47&#10;&amp;#27;[35m[Appium]&amp;#27;[39m Non-default server args:&#10;&amp;#27;[35m[Appium]&amp;#27;[39m { address: &amp;#27;[32m&apos;127.0.0.1&apos;&amp;#27;[39m }&#10;&amp;#27;[35m[Appium]&amp;#27;[39m Attempting to load driver uiautomator2...&#10;[debug] &amp;#27;[35m[Appium]&amp;#27;[39m Requiring driver at C:\Users\axelc\.appium\node_modules\appium-uiautomator2-driver&#10;&amp;#27;[38;5;0m[HTTP]&amp;#27;[0m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other[ insdtaneceb ouf gt]hi s &amp;#27;s[er3ve5rm r[unAnipnpg ialuremad]y&amp;#27;.&#13;[&#10;3&amp;#27;[93m5m [AEprpirumo]r&amp;#27;[:39 ml Ciousldt noet nc onEfAiDgDurReI NAUpSpEi:u ma ddrseesrvse r.a lItr&apos;se apodssyib lei nth aut sa ed ri1ve2r7 o.r0 p.lu0g.in1 t:r4ie7d 2t3o &#13;u&#10;pdate[ tdhee bseurvger]  an&amp;#27;d [f3ai5lemd.[ AOrpigpiinaulm err]or&amp;#27;:[ l3is9tmen  E AD D RI NUaStE S:e ravdedrr.essestu paLlirsetaednyH aindnl ues e [12a7s. 0_l.i0s.t1e:n427]2 3(&#13;n&#10;ode:net:1432:16)&#10;[debug] &amp;#27;[35m[Appium]&amp;#27;[39m     at listenInCluster (node:net:1480:12)&#10;[debug] &amp;#27;[35m[Appium]&amp;#27;[39m     at doListen (node:net:1629:7)&#10;[debug] &amp;#27;[35m[Appium]&amp;#27;[39m     at processTicksAndRejections (node:internal/process/task_queues:84:21)&#10;&#10;" type="io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException"><![CDATA[io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException: 
+The local appium server has not been started. The given Node.js executable: C:\Program Files\nodejs\node.exe Arguments: [C:\Users\axelc\AppData\Roaming\npm\node_modules\appium\build\lib\main.js, --port, 4723, --address, 127.0.0.1] 
+Process output: info Appium Upgraded extension manifest to schema v3
+&amp#27;[35m[Appium]&amp#27;[39m Welcome to Appium v2.0.0-beta.47
+&amp#27;[35m[Appium]&amp#27;[39m Non-default server args:
+&amp#27;[35m[Appium]&amp#27;[39m { address: &amp#27;[32m'127.0.0.1'&amp#27;[39m }
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to load driver uiautomator2...
+[debug] &amp#27;[35m[Appium]&amp#27;[39m Requiring driver at C:\Users\axelc\.appium\node_modules\appium-uiautomator2-driver
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other[ insdtaneceb ouf gt]hi s &amp#27;s[er3ve5rm r[unAnipnpg ialuremad]y&amp#27;.[
+3&amp#27;[93m5m [AEprpirumo]r&amp#27;[:39 ml Ciousldt noet nc onEfAiDgDurReI NAUpSpEi:u ma ddrseesrvse r.a lItr'se apodssyib lei nth aut sa ed ri1ve2r7 o.r0 p.lu0g.in1 t:r4ie7d 2t3o u
+pdate[ tdhee bseurvger]  an&amp#27;d [f3ai5lemd.[ AOrpigpiinaulm err]or&amp#27;:[ l3is9tmen  E AD D RI NUaStE S:e ravdedrr.essestu paLlirsetaednyH aindnl ues e [12a7s. 0_l.i0s.t1e:n427]2 3(n
+ode:net:1432:16)
+[debug] &amp#27;[35m[Appium]&amp#27;[39m     at listenInCluster (node:net:1480:12)
+[debug] &amp#27;[35m[Appium]&amp#27;[39m     at doListen (node:net:1629:7)
+[debug] &amp#27;[35m[Appium]&amp#27;[39m     at processTicksAndRejections (node:internal/process/task_queues:84:21)
+
+
+	at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:190)
+	at org.rahulshettyacademy.utils.appiumUtils.startAppiumServer(appiumUtils.java:20)
+	at org.rahulshettyacademy.TestUtils.BaseTest.ConfigureAppium(BaseTest.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20015 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:89)
+	at io.appium.java_client.service.local.AppiumDriverLocalService.ping(AppiumDriverLocalService.java:155)
+	at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:177)
+	... 32 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:87)
+	... 34 more
+]]></failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+info Appium Upgraded extension manifest to schema v3
+&amp#27;[35m[Appium]&amp#27;[39m Welcome to Appium v2.0.0-beta.47
+&amp#27;[35m[Appium]&amp#27;[39m Non-default server args:
+&amp#27;[35m[Appium]&amp#27;[39m { address: &amp#27;[32m'127.0.0.1'&amp#27;[39m }
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to load driver uiautomator2...
+[debug] &amp#27;[35m[Appium]&amp#27;[39m Requiring driver at C:\Users\axelc\.appium\node_modules\appium-uiautomator2-driver
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other in[stadncee bofu gth]is  &amp#27;se[rv3e5r mru[nnAipngp ailrueamd]y.&amp#27;
+[3&amp#27;[935mm[ AEpprirumo]&amp#27;r[3:9 m lCoiulsd ntote nco nEfAiDguDrReI NAUpSpEi:u madd rseersvser .a Ilt'rse paosdsiybl ei tnh atu as edr iv1e2r 7o.r 0pl.u0gi.n 1t:ri4ed7 2to3 u
+pdate [thdee sberuvegr] a nd&amp#27; [fa3il5edm.[ OAripgpiniaul ermr]or&amp#27;: [li3s9temn  EA D DR IN UaSt ES:e ravdedrr.essetsu paLlirsetaednyH anidn luese  1[2a7s. _0l.i0s.t1e:n427]2 3(n
+ode:net:1432:16)
+[debug] &amp#27;[35m[Appium]&amp#27;[39m     at listenInCluster (node:net:1480:12)
+[debug] &amp#27;[35m[Appium]&amp#27;[39m     at doListen (node:net:1629:7)
+[debug] &amp#27;[35m[Appium]&amp#27;[39m     at processTicksAndRejections (node:internal/process/task_queues:84:21)
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="FillForm_ErrorTesting" classname="org.rahulshettyacademy.eCommerce_tc_2" time="0">
+    <skipped message="The local appium server has not been started. The given Node.js executable: C:\Program Files\nodejs\node.exe Arguments: [C:\Users\axelc\AppData\Roaming\npm\node_modules\appium\build\lib\main.js, --port, 4723, --address, 127.0.0.1] &#10;Process output: info Appium Upgraded extension manifest to schema v3&#10;&amp;#27;[35m[Appium]&amp;#27;[39m Welcome to Appium v2.0.0-beta.47&#10;&amp;#27;[35m[Appium]&amp;#27;[39m Non-default server args:&#10;&amp;#27;[35m[Appium]&amp;#27;[39m { address: &amp;#27;[32m&apos;127.0.0.1&apos;&amp;#27;[39m }&#10;&amp;#27;[35m[Appium]&amp;#27;[39m Attempting to load driver uiautomator2...&#10;[debug] &amp;#27;[35m[Appium]&amp;#27;[39m Requiring driver at C:\Users\axelc\.appium\node_modules\appium-uiautomator2-driver&#10;&amp;#27;[38;5;0m[HTTP]&amp;#27;[0m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other[ insdtaneceb ouf gt]hi s &amp;#27;s[er3ve5rm r[unAnipnpg ialuremad]y&amp;#27;.&#13;[&#10;3&amp;#27;[93m5m [AEprpirumo]r&amp;#27;[:39 ml Ciousldt noet nc onEfAiDgDurReI NAUpSpEi:u ma ddrseesrvse r.a lItr&apos;se apodssyib lei nth aut sa ed ri1ve2r7 o.r0 p.lu0g.in1 t:r4ie7d 2t3o &#13;u&#10;pdate[ tdhee bseurvger]  an&amp;#27;d [f3ai5lemd.[ AOrpigpiinaulm err]or&amp;#27;:[ l3is9tmen  E AD D RI NUaStE S:e ravdedrr.essestu paLlirsetaednyH aindnl ues e [12a7s. 0_l.i0s.t1e:n427]2 3(&#13;n&#10;ode:net:1432:16)&#10;[debug] &amp;#27;[35m[Appium]&amp;#27;[39m     at listenInCluster (node:net:1480:12)&#10;[debug] &amp;#27;[35m[Appium]&amp;#27;[39m     at doListen (node:net:1629:7)&#10;[debug] &amp;#27;[35m[Appium]&amp;#27;[39m     at processTicksAndRejections (node:internal/process/task_queues:84:21)&#10;&#10;"/>
+  </testcase>
+  <testcase name="FillForm_WorkingCorrectly" classname="org.rahulshettyacademy.eCommerce_tc_2" time="0">
+    <skipped message="The local appium server has not been started. The given Node.js executable: C:\Program Files\nodejs\node.exe Arguments: [C:\Users\axelc\AppData\Roaming\npm\node_modules\appium\build\lib\main.js, --port, 4723, --address, 127.0.0.1] &#10;Process output: info Appium Upgraded extension manifest to schema v3&#10;&amp;#27;[35m[Appium]&amp;#27;[39m Welcome to Appium v2.0.0-beta.47&#10;&amp;#27;[35m[Appium]&amp;#27;[39m Non-default server args:&#10;&amp;#27;[35m[Appium]&amp;#27;[39m { address: &amp;#27;[32m&apos;127.0.0.1&apos;&amp;#27;[39m }&#10;&amp;#27;[35m[Appium]&amp;#27;[39m Attempting to load driver uiautomator2...&#10;[debug] &amp;#27;[35m[Appium]&amp;#27;[39m Requiring driver at C:\Users\axelc\.appium\node_modules\appium-uiautomator2-driver&#10;&amp;#27;[38;5;0m[HTTP]&amp;#27;[0m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other[ insdtaneceb ouf gt]hi s &amp;#27;s[er3ve5rm r[unAnipnpg ialuremad]y&amp;#27;.&#13;[&#10;3&amp;#27;[93m5m [AEprpirumo]r&amp;#27;[:39 ml Ciousldt noet nc onEfAiDgDurReI NAUpSpEi:u ma ddrseesrvse r.a lItr&apos;se apodssyib lei nth aut sa ed ri1ve2r7 o.r0 p.lu0g.in1 t:r4ie7d 2t3o &#13;u&#10;pdate[ tdhee bseurvger]  an&amp;#27;d [f3ai5lemd.[ AOrpigpiinaulm err]or&amp;#27;:[ l3is9tmen  E AD D RI NUaStE S:e ravdedrr.essestu paLlirsetaednyH aindnl ues e [12a7s. 0_l.i0s.t1e:n427]2 3(&#13;n&#10;ode:net:1432:16)&#10;[debug] &amp;#27;[35m[Appium]&amp;#27;[39m     at listenInCluster (node:net:1480:12)&#10;[debug] &amp;#27;[35m[Appium]&amp;#27;[39m     at doListen (node:net:1629:7)&#10;[debug] &amp;#27;[35m[Appium]&amp;#27;[39m     at processTicksAndRejections (node:internal/process/task_queues:84:21)&#10;&#10;"/>
+  </testcase>
+  <testcase name="TearDown" classname="org.rahulshettyacademy.eCommerce_tc_2" time="20.946">
+    <failure message="org/openqa/selenium/Rotatable" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: org/openqa/selenium/Rotatable
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:800)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:698)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:621)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:579)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:800)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:698)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:621)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:579)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at org.rahulshettyacademy.TestUtils.BaseTest.TearDown(BaseTest.java:115)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:214)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.Rotatable
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 49 more
+]]></failure>
+  </testcase>
+  <testcase name="ConfigureAppium" classname="org.rahulshettyacademy.eCommerce_tc_4_HybridApp" time="25.633">
+    <failure message="org/openqa/selenium/Rotatable" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: org/openqa/selenium/Rotatable
+	at org.rahulshettyacademy.TestUtils.BaseTest.ConfigureAppium(BaseTest.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[info Appium Upgraded extension manifest to schema v3
+&amp#27;[35m[Appium]&amp#27;[39m Welcome to Appium v2.0.0-beta.47
+&amp#27;[35m[Appium]&amp#27;[39m Non-default server args:
+&amp#27;[35m[Appium]&amp#27;[39m { address: &amp#27;[32m'127.0.0.1'&amp#27;[39m }
+&amp#27;[35m[Appium]&amp#27;[39m Attempting to load driver uiautomator2...
+[debug] &amp#27;[35m[Appium]&amp#27;[39m Requiring driver at C:\Users\axelc\.appium\node_modules\appium-uiautomator2-driver
+&amp#27;[35m[Appium]&amp#27;[39m Appium REST http interface listener started on 127.0.0.1:4723
+&amp#27;[35m[Appium]&amp#27;[39m Available drivers:
+&amp#27;[35m[Appium]&amp#27;[39m   - uiautomator2@2.12.0 (automationName 'UiAutomator2')
+&amp#27;[35m[Appium]&amp#27;[39m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/status&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m{}&amp#27;[39m
+[debug] &amp#27;[38;5;16m[AppiumDriver@e9b7]&amp#27;[0m Calling AppiumDriver.getStatus() with args: []
+[debug] &amp#27;[38;5;16m[AppiumDriver@e9b7]&amp#27;[0m Responding to client with driver.getStatus() result: {"build":{"version":"2.0.0-beta.47"}}
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[37m<-- GET /status &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m4 ms - 47&amp#27;[39m
+&amp#27;[38;5;0m[HTTP]&amp#27;[0m &amp#27;[90m&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="ConfirmCost" classname="org.rahulshettyacademy.eCommerce_tc_4_HybridApp" time="0">
+    <skipped message="org/openqa/selenium/Rotatable"/>
+  </testcase>
+  <testcase name="ConfirmCost" classname="org.rahulshettyacademy.eCommerce_tc_4_HybridApp" time="0">
+    <skipped message="org/openqa/selenium/Rotatable"/>
+  </testcase>
+  <testcase name="preSetup" classname="org.rahulshettyacademy.eCommerce_tc_4_HybridApp" time="25.633">
+    <failure message="org/openqa/selenium/Rotatable" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: org/openqa/selenium/Rotatable
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:800)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:698)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:621)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:579)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:800)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:698)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:621)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:579)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at org.rahulshettyacademy.eCommerce_tc_4_HybridApp.preSetup(eCommerce_tc_4_HybridApp.java:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:536)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.Rotatable
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 51 more
+]]></failure>
+  </testcase>
+  <testcase name="preSetup" classname="org.rahulshettyacademy.eCommerce_tc_4_HybridApp" time="25.633">
+    <failure message="org/openqa/selenium/Rotatable" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: org/openqa/selenium/Rotatable
+	at org.rahulshettyacademy.eCommerce_tc_4_HybridApp.preSetup(eCommerce_tc_4_HybridApp.java:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:536)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+  </testcase>
+  <testcase name="TearDown" classname="org.rahulshettyacademy.eCommerce_tc_4_HybridApp" time="25.633">
+    <failure message="org/openqa/selenium/Rotatable" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: org/openqa/selenium/Rotatable
+	at org.rahulshettyacademy.TestUtils.BaseTest.TearDown(BaseTest.java:115)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:214)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+  </testcase>
+</testsuite>

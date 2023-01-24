@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-20T20:31:06 CST" name="Suite" finished-at="2023-01-20T20:32:37 CST" duration-ms="91153">
+    <groups>
+      <group name="Smoke">
+        <method signature="eCommerce_tc_4_HybridApp.ConfirmCost(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_4_HybridApp@11bb571c]" name="ConfirmCost" class="org.rahulshettyacademy.eCommerce_tc_4_HybridApp"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-01-20T20:31:06 CST" name="LoginPage Testing" finished-at="2023-01-20T20:31:40 CST" duration-ms="33743">
+      <class name="org.rahulshettyacademy.eCommerce_tc_2">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_2@20d7d6fb]" started-at="2023-01-20T20:31:06 CST" name="ConfigureAppium" finished-at="2023-01-20T20:31:18 CST" duration-ms="12108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="FillForm_ErrorTesting()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_2@20d7d6fb]" started-at="2023-01-20T20:31:18 CST" name="FillForm_ErrorTesting" finished-at="2023-01-20T20:31:22 CST" duration-ms="4183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm_ErrorTesting -->
+        <test-method signature="FillForm_WorkingCorrectly()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_2@20d7d6fb]" started-at="2023-01-20T20:31:22 CST" name="FillForm_WorkingCorrectly" finished-at="2023-01-20T20:31:40 CST" duration-ms="17065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm_WorkingCorrectly -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_2@20d7d6fb]" started-at="2023-01-20T20:31:40 CST" name="TearDown" finished-at="2023-01-20T20:31:40 CST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- org.rahulshettyacademy.eCommerce_tc_2 -->
+    </test> <!-- LoginPage Testing -->
+    <test started-at="2023-01-20T20:31:40 CST" name="End to End FrameWork Test" finished-at="2023-01-20T20:32:37 CST" duration-ms="57144">
+      <class name="org.rahulshettyacademy.eCommerce_tc_4_HybridApp">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_4_HybridApp@11bb571c]" started-at="2023-01-20T20:31:40 CST" name="ConfigureAppium" finished-at="2023-01-20T20:31:52 CST" duration-ms="11697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="ConfirmCost(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_4_HybridApp@11bb571c]" started-at="2023-01-20T20:31:52 CST" name="ConfirmCost" data-provider="getData" finished-at="2023-01-20T20:32:16 CST" duration-ms="23845" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Axel Castruita]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Femmale]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Argentina]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmCost -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_4_HybridApp@11bb571c]" started-at="2023-01-20T20:32:16 CST" name="preSetup" finished-at="2023-01-20T20:32:16 CST" duration-ms="493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="ConfirmCost(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_4_HybridApp@11bb571c]" started-at="2023-01-20T20:32:16 CST" name="ConfirmCost" data-provider="getData" finished-at="2023-01-20T20:32:36 CST" duration-ms="20316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Luis Flores]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Angola]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmCost -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_4_HybridApp@11bb571c]" started-at="2023-01-20T20:32:36 CST" name="preSetup" finished-at="2023-01-20T20:32:37 CST" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_4_HybridApp@11bb571c]" started-at="2023-01-20T20:32:37 CST" name="TearDown" finished-at="2023-01-20T20:32:37 CST" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- org.rahulshettyacademy.eCommerce_tc_4_HybridApp -->
+    </test> <!-- End to End FrameWork Test -->
+  </suite> <!-- Suite -->
+</testng-results>
